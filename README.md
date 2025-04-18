@@ -5,7 +5,7 @@
 | ------------- | ------------- |
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
-<img src="https://raw.githubusercontent.com/havario/havario/output/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+<img src="https://raw.githubusercontent.com/havario/havario/output/profile-snake-contrib/github-contribution-grid-snake.svg" />
 
 🧰 常用的工具
 
