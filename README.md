@@ -1,6 +1,5 @@
 <div align="center">
-⚡⚡⚡
-
+  
 | <img align="center" src="https://github-readme-stats.vercel.app/api?username=zzwsec&show_icons=true&include_all_commits=true&theme=graywhite&hide_border=true&hide=contribs" alt="zzwsec's github stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zzwsec&layout=compact&theme=graywhite&hide_border=true&hide=javascript,html,css" /></a> |
 | ------------- | ------------- |
 
@@ -21,6 +20,7 @@
 <img src="https://skillicons.dev/icons?i=vscode,git" /><br>
 
 <!-- svg -->
+<img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 50px; margin-bottom: 0px;" />
 <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 50px; margin-bottom: 0px;" />
 <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 50px; margin-bottom: 0px;" />
 <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 50px; margin-bottom: 0px;" />
