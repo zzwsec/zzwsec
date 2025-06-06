@@ -1,8 +1,12 @@
+---
 name: 'Generate Animation Snake'
 
 on:
+  push:
+    branches:
+      - master
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 22,4,10,16 * * *'
   workflow_dispatch:
 
 permissions: 
@@ -15,7 +19,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: 'Generate github-contribution-grid-snake.svg'
+      - name: 'Generate snake.svg'
         uses: Platane/snk/svg-only@v3.3.0
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -23,10 +27,11 @@ jobs:
             dist/profile-snake-contrib/github-contribution-grid-snake.svg
             dist/profile-snake-contrib/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: 'Push github-contribution-grid-snake.svg to the output branch'
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: 'Push snake.svg to the output branch'
+        uses: crazy-max/ghaction-github-pages@v4.2.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: 'chore: synchronize snake svg commit graph'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
