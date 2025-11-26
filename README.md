@@ -1,7 +1,4 @@
 <div align="center">
-  
-| <img align="center" src="https://github-readme-stats.vercel.app/api?username=zzwsec&show_icons=true&include_all_commits=true&theme=graywhite&hide_border=true&hide=contribs" alt="zzwsec's github stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zzwsec&layout=compact&theme=graywhite&hide_border=true&hide=javascript,html,css" /></a> |
-| ------------- | ------------- |
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
 <img src="https://raw.githubusercontent.com/havario/havario/output/profile-snake-contrib/github-contribution-grid-snake.svg" />
